@@ -1,0 +1,61 @@
+Instrucciones del programa
+
+Nota: Se recomienda ejecutar el programa en su notebook en jupyter:
+
+* Probar el programa con los datos de ejemplo:
+
+- Abra el programa Tabla_de_frecuencias.py.
+(Si está en el notebook del programa, de click aquí y ejecute la celda del programa.)
+- Escriba Ej_Entradas.txt y oprima Enter.
+- Una vez el programa se haya cerrado el programa, los resultados estarán guardados en la carpeta "Resultados" en la misma ubicación del programa.
+
+* Ejecutar el programa con datos propios:
+
+- Asegúrese de tener en la misma ubicación del programa o del notebook por lo menos:
+- Archivo de entradas: Un archivo de texto con las entradas, tome como guía la estructura de Ej_Entradas.txt.
+- Archivo de datos: El archivo de texto con los datos referenciado en el archivo de entradas, tome como guía la estructura de Ej_1.Temp_Ad.txt o Ej_2.Tem_Llen.txt.
+- Si desea que el color del histograma sea aleatorio en lugar de escribir un color, escriba "a".
+- Si ya existe una carpeta "Resultados" y desea conservarla, cámbiele el nombre o cámbiela de ubicación para no perder su contenido.
+- Abra el programa Tabla_de_frecuencias.py (Si está en el notebook del programa, de click aquí y ejecute la celda del programa.)
+- Escriba el nombre del archivo donde están las entradas.
+- Una vez el programa se haya cerrado el programa, los resultados estarán guardados en la carpeta "Resultados" en la misma ubicación del programa o del notebook.
+
+* Evitar errores:
+
+Para que el programa no presente errores al ejecutarse tenga en cuenta:
+
+1. Archivo de entradas (Ver archivo Ej_Entradas.txt)
+
+- El archivo de entradas, debe tener en cada línea y separado por punto y coma ';' la siguiente información:
+  1. El nombre del archivo de datos con la extensión .txt
+  2. El número de clases para calcular la tabla de frecuencias.
+  3. El color para graficar el histograma.    
+- No debe tener rótulos (la primera línea tiene el primer conjunto de datos).
+- Al final no debe haber ningún salto de línea (la última línea tiene el último conjunto de entradas)
+
+Por ejemplo:
+Archivo_1.txt;9;blue
+Archivo_2.txt;10;a
+
+2. Archivo de datos ingresado: (Ver archivo Ej_1.Temp_Ad.txt o Ej_2.Tem_Llen.txt)
+
+- Debe ser un archivo en de texto. (.txt)
+- Debe estar ubicado en la misma ruta (carpeta) del programa.
+- Los datos deben estar organizados en un vector (un solo dato en cada línea, formando una columna de datos).
+- No debe tener rótulos. (La primera línea debe tener el primer dato).
+- Si hay decimales estos deben ser indicados con punto ".".
+- Todos los datos deben tener la misma cantidad de decimales.
+- No deben existir filas vacías, ni saltos de línea al final (la última fila debe tener el último dato).
+
+3. El número de clases ingresado
+
+- Debe ser un número entero.
+
+4. Colores del histograma
+
+- Si desea que los colores sean aleatorios, en vez de un color, escriba "a".
+- Puede usar los colores compatibles con las paletas de Matplotlib, como los de la siguiente lista, https://matplotlib.org/3.1.1/gallery/color/named_colors.html.
+
+3. Resultados.
+
+- En la ruta del programa no debe existir una carpeta llamada 'Resultados' antes de ejecutarlo, si existe los archivos que contengan pueden ser reemplazados.
