@@ -1,2 +1,0 @@
-Ej_Temp_Ad.txt;7;a
-Ej_Temp_Llen.txt;7;dodgerblue

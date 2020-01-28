@@ -8,15 +8,13 @@ datos= [62.2, 70.9, 70.0, 58.3, 56.0, 81.9, 73.2, 75.4, 63.1, 78.8, 65.6, 76.8, 
 
 k=7
 
-r_rango=59.8
-
 def test_lectura_entradas(funcion):
     "Prueba la función lectura_entradas"
 
     # Capturar los resultados
     archivos,k,colores=funcion("Ej_Entradas.txt")
 
-    # Comprobar los salidas esperadas
+    # Comprobar las salidas esperadas
     l_a, l_k, l_c=(['Ej_Temp_Ad.txt', 'Ej_Temp_Llen.txt'],[7, 7], ['', 'dodgerblue'])
 
     try:
@@ -33,7 +31,7 @@ def test_lectura_datos(funcion):
     l_data=[]
     data=funcion("Ej_Temp_Ad.txt",l_data)
 
-    # Comprobar los salidas esperadas
+    # Comprobar las salidas esperadas
     s_datos=datos
     l_datos=[datos]
 
@@ -50,7 +48,7 @@ def test_medidas(funcion):
     # Capturar los resultados
     resultados=funcion(datos)
 
-    # Comprobar los salidas esperadas
+    # Comprobar las salidas esperadas
     s_esperadas=(69.67333333333333, 69.8, 66.0, 10.011088983849813, 59.8, 100.2219026425591)
 
     try:
@@ -64,11 +62,10 @@ def test_clases(funcion):
     "Prueba la función clases"
 
     # Capturar los resultados
-    resultados=funcion(datos,k,r_rango)
+    resultados=funcion(datos,k)
 
-    # Comprobar los salidas esperadas
-    s_esperadas=[(38.79, 47.34), (47.34, 55.89), (55.89, 64.43), (64.43, 72.98), (72.98, 81.52), (81.52, 90.07), (90.07, 98.61)]
-
+    # Comprobar las salidas esperadas
+    s_esperadas=[(38.8, 47.34), (47.34, 55.89), (55.89, 64.43), (64.43, 72.97), (72.97, 81.51), (81.51, 90.06), (90.06, 98.6)]
     try:
         assert(resultados==s_esperadas)
         return print("La función clases es correcta")
@@ -82,7 +79,7 @@ def test_frecuencias(funcion):
     # Capturar los resultados
     resultados=funcion(datos,k)
 
-    # Comprobar los salidas esperadas
+    # Comprobar las salidas esperadas
     s_esperadas=([8.0, 48.0, 164.0, 233.0, 180.0, 72.0, 15.0],[0.011111111111111112,0.06666666666666667, 0.22777777777777777, 0.3236111111111111,0.25,0.1,0.020833333333333332],[8.0, 56.0, 220.0, 453.0, 633.0, 705.0, 720.0],[0.011111111111111112, 0.07777777777777778, 0.3055555555555556, 0.6291666666666667, 0.8791666666666667, 0.9791666666666666, 1.0])
 
     try:
