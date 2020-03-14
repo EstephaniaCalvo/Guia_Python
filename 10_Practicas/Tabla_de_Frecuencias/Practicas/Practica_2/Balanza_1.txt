@@ -1,3 +1,0 @@
-T1-B1.txt;9;a
-T2-B1.txt;9;a
-T3-B1.txt;9;a

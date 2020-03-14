@@ -1,1 +1,0 @@
-Ej_TF_Datos.txt;5;yellowgreen
