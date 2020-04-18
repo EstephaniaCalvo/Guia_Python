@@ -1,0 +1,3 @@
+Criterios:1;2;3;4
+Alternativas:A;B;C
+Archivos:t1_CC.txt;t1_C1.txt;t1_C2.txt;t1_C3.txt;t1_C4.txt

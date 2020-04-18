@@ -1,0 +1,3 @@
+Criterios:1;2;3;4
+Alternativas:A;B;C
+Archivos:Ej_AHP_CC.txt;Ej_AHP_C1.txt;Ej_AHP_C2.txt;Ej_AHP_C3.txt;Ej_AHP_C4.txt

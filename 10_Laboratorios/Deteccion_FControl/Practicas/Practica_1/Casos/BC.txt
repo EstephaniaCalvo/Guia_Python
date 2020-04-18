@@ -1,0 +1,16 @@
+Muestras_Anteriores:BC_DH.txt
+LCIx:502.30
+LCIx_2s:504.88
+LCIx_1s:507.45
+LCx:510.03
+LCSx_1s:512.61
+LCSx_2s:515.19
+LCSx:517.77
+LCIs:0.0
+LCIs_2s:0.74
+LCIs_1s:2.75
+LCs:4.75
+LCSs_1s:6.76
+LCSs_2s:8.76
+LCSs:10.77
+Muestra_Actual:511.48	519.02	518.77	516.56

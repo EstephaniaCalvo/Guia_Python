@@ -1,0 +1,3 @@
+Criterios:Precio;Calidad;Distancia
+Alternativas:Alphabet;Bit;Care
+Archivos:t2_CC.txt;t1_C1.txt;t2_C2.txt;t1_C3.txt

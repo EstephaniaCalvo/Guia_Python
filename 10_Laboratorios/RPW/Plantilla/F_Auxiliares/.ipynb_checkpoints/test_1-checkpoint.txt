@@ -1,0 +1,11 @@
+T.Disponible:36000
+Demanda:480
+A	40	-
+B	30	A
+C	50	A
+D	40	B
+E	6	B
+F	25	C
+G	15	C
+H	20	D,E
+I	48	G,F,H

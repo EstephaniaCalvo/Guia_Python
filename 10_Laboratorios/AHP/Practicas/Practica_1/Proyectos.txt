@@ -1,0 +1,3 @@
+Criterios:Impacto;Costo;Tiempo;Consecuencias
+Alternativas:6s;Auditores;Cambios;Capacitaciones;Exclusa;Filtros;Laboratorio;Limpiabotas;Metrologia;Novaflex;Rodillos
+Archivos:M_Criterios.txt;M_Impacto.txt;M_Costos.txt;M_Tiempo.txt;M_Consecuencias.txt

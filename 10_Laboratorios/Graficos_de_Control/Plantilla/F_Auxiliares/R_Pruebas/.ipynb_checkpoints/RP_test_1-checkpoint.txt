@@ -1,0 +1,19 @@
+Límites y líneas de x̄:
+
+LCIx: Límite de control inferior=14.601279421746286
+LCIx_2s: Línea inferior a dos sigmas de la línea central=15.190425597403506
+LCIx_1s: Línea inferior a un sigma de la línea central=15.779571773060725
+LCx: Línea central=16.368717948717947
+LCSx_2s: Línea superior a dos sigmas de la línea central=17.54701030003239
+LCSx_1s: Línea superior a un sigma de la línea central=16.957864124375167
+LCSx: Límite de control superior=18.13615647568961
+
+Límites y líneas de σ:
+
+LCIs: Límite de control inferior=0.0
+LCIs_2s: Línea inferior a dos sigmas de la línea central=0.3393680142888825
+LCIs_1s: Línea inferior a un sigma de la línea central=0.788968704751891
+LCs: Línea central=1.2385693952148993
+LCSs_2s: Línea superior a dos sigmas de la línea central=2.137770776140916
+LCSs_1s: Línea superior a un sigma de la línea central=1.6881700856779076
+LCSs: Límite de control superior=2.5873714666039245

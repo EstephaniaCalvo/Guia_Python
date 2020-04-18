@@ -1,0 +1,12 @@
+T.Disponible:23400
+Demanda:100
+A	25	-
+B	100	A
+C	125	A
+D	115	B
+E	89	B,C
+F	75	C,A
+G	45	C,B,E
+H	84	D,E
+I	96	G,F
+J	100	I,H

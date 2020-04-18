@@ -1,0 +1,16 @@
+Muestras_Anteriores:Ej_DH.txt
+LCIx:14.60
+LCIx_2s:15.19
+LCIx_1s:15.78
+LCx:16.37
+LCSx_2s:7.56
+LCSx_1s:16.96
+LCSx:18.14
+LCIs:0.0
+LCIs_2s:0.34
+LCIs_1s:0.79
+LCs:1.24
+LCSs_2s:2.14
+LCSs_1s:1.69
+LCSs:2.59
+Muestra_Actual:12.5	13.4	15.8	15.6	15.1
