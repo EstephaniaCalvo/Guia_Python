@@ -1,4 +1,4 @@
-# Título: Minimax Rectilíneo
+# Título: Minisum Rectilíneo
 # Autor: 
 
 # -2. Importar módulos
@@ -7,13 +7,15 @@
 
 ## a. Leer y almacenar datos de entrada.
 
-## b. Calcular segmento óptimo.
+## b. Calcular la o las coordenadas óptimas
 
-## c. Generar matriz Z
+## c. Calcular y organizar el o los puntos óptimos.
 
-## d. Guardar archivo de resultados.xlsx
+## d. Generar matriz Z
 
-## e. Hacer los gráficos
+## e. Guardar archivo de resultados.xlsx
+
+## f. Hacer los gráficos
 
 ## Crear mapa (opcional)
 
