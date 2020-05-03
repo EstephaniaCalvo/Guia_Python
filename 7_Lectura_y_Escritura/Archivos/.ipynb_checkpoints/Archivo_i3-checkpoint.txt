@@ -1,4 +1,4 @@
-Pieza_A	Pieza_B
+Volumen_Pieza_A	Desperdicio_L3
 
 704,8	16,110
 
