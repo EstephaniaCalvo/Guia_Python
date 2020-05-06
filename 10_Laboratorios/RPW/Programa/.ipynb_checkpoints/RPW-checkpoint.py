@@ -9,7 +9,7 @@
 
 ## b. Identificar sucesoras
 
-## c. Calcular el rpw
+## c. Calcular el RPW
 
 ## d. Organizar estaciones
 

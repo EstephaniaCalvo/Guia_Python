@@ -3,6 +3,7 @@
 
 # -2. Importar módulos
 
+
 # -1. Funciones auxiliares 
 
 ## a. Leer y almacenar datos de entrada.
@@ -18,5 +19,6 @@
 ## f. Hacer los gráficos
 
 ## Crear mapa (opcional)
+
 
 # 0. Programa principal

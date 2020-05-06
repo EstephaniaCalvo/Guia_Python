@@ -22,7 +22,7 @@ c_x= [-75.574828, -73.361389, -75.484722, -75.611667, -76.600278, -73.259722, -7
 c_y=[6.244747, 5.540278, 5.066111, 1.614167, 2.459167, 10.460278, 5.692277, 2.9275, 1.21, 7.9075, 1.149167, 4.538889, 4.814278, 7.118611, 4.437778, 3.44]
 
 ## DataFrame ciudades
-df_ciudades=pd.DataFrame({"LAT":c_y,"LOG":c_x,"C":ciudades})
+df_departamentos=pd.DataFrame({"LAT":c_y,"LOG":c_x,"C":departamentos})
 
 # Zonas Francas
 
@@ -36,13 +36,3 @@ zf_y=[2.906665, 3.546749, 4.882888, 4.747874, 4.676238]
 
 ## DataFrame pueblos
 df_zfrancas=pd.DataFrame({"LATI":zf_y,"LOGI":zf_x,"P":z_francas})
-
-# Croquis
-
-## Croquis ciudades y pueblos
-cities_path = os.path.join(os.getcwd(),'Modulos\\','jp_cities1.geojson') 
-cities_geojson = json.load(open(cities_path, encoding="utf8"))
-
-## Croquis prefactura
-pref_path = os.path.join(os.getcwd(),'Modulos\\','jp_prefs1.geojson') 
-pref_geojson = json.load(open(pref_path, encoding="utf8"))

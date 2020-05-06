@@ -12,9 +12,10 @@ import os
 capital="Cápital: Morioka"
 coord_cap=[39.683333, 141.15]
 
-# Ciudades 
+# Ciudades (Sin cabpital)
 
 ciudades=["Hachimantai", "Hanamaki", "Ichinoseki", "Kamaishi", "Kitakami", "Kuji", "Miyako", "Ninohe", "Ōfunato", "Ōshū", "Rikuzentakata", "Takizawa", "Tōno"]
+
 ## Coordenadas ciudades
 c_x= [141.095278, 141.116667, 141.126583, 141.885556, 141.113056, 141.775278, 141.957222, 141.304722, 141.708333, 141.138889, 141.629444, 141.076944, 141.533611]
 
@@ -32,13 +33,3 @@ pv_y=[39.195556, 40.039722, 39.696111, 39.359722, 39.141944, 40.408611, 40.32666
 
 ## DataFrame pueblos
 df_pueblos=pd.DataFrame({"LATI":pv_y,"LOGI":pv_x,"P":pueblos})
-
-# Croquis
-
-## Croquis ciudades y pueblos
-cities_path = os.path.join(os.getcwd(),'Modulos\\','jp_cities1.geojson') 
-cities_geojson = json.load(open(cities_path, encoding="utf8"))
-
-## Croquis prefactura
-pref_path = os.path.join(os.getcwd(),'Modulos\\','jp_prefs1.geojson') 
-pref_geojson = json.load(open(pref_path, encoding="utf8"))

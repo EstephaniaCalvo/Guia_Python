@@ -12,7 +12,7 @@
 
 ## c. Calcular la matriz normal y el vector pesos:  
 
-## d. Calcular la razón de cosisntencia
+## d. Calcular la razón de consistencia
 
 ## e. Calcular el vector resultados
 

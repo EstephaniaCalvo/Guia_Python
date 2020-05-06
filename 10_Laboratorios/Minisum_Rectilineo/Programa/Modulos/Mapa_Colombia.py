@@ -36,9 +36,3 @@ zf_y=[2.906665, 3.546749, 4.882888, 4.747874, 4.676238]
 
 ## DataFrame pueblos
 df_zfrancas=pd.DataFrame({"LATI":zf_y,"LOGI":zf_x,"P":z_francas})
-
-# Croquis
-
-## Croquis ciudades y pueblos
-departments_path = os.path.join(os.getcwd(),'Modulos\\','Colombia.geojson') 
-departments_geojson = json.load(open(departments_path, encoding="utf8"))

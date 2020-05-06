@@ -1,4 +1,4 @@
-# Título: Gráficos de Control (GC)
+# Título: Gráficos de Control (x̄ - σ)
 # Autor: 
 
 # -2. Importar módulos

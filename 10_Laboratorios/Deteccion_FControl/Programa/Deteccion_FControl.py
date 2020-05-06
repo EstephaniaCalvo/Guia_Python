@@ -3,6 +3,8 @@
 
 # -2. Importar módulos
 
+
+
 # -1. Funciones auxiliares 
 
 ## a. Leer y almacenar entradas
