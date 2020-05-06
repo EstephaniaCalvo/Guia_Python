@@ -42,4 +42,5 @@ La guía está implementada en el entorno de desarrollo de JupyterLab para tener
 Por lo anterior la guía esta subida en Binder y se puede abrir en un entorno completamente online en cualquier computadora que tenga buena conexión, sin embargo, lo más recomendable es descargar el repositorio de GitHub, pero previamente se debe tener instalado Python y JupyterLab.
 
 Con el siguiente link se puede abrir la guía online en un entorno generado en Binder:
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EstephaniaCalvo/Guia_Python/master?urlpath=lab/tree/Home.ipynb)
