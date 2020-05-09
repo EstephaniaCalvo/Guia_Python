@@ -1,4 +1,4 @@
-name: Guia_Python_Environment
+name: Guia_de_Implementacion_de_Algoritmos_de_Ing_Industrial_Environment
 channels:
   - conda-forge
 dependencies:
@@ -6,3 +6,4 @@ dependencies:
   - matplotlib
   - pandas
   - xlsxwriter
+  - folium
