@@ -2,8 +2,5 @@ name: Guia_Python_Environment
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - matplotlib
-  - pandas
   - xlsxwriter
   - folium
