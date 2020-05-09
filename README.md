@@ -43,4 +43,4 @@ Por lo anterior la guía esta subida en Binder y se puede abrir en un entorno co
 
 Con el siguiente link se puede abrir la guía online en un entorno generado en Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EstephaniaCalvo/Guia_Python/master?urlpath=lab/tree/Home.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EstephaniaCalvo/Guia_de_Implementacion_de_Algoritmos_de_Ing_Industrial/master?urlpath=lab/tree/Home.ipynb)
